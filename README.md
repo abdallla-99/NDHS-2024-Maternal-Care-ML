@@ -60,12 +60,16 @@ The scripts may require adjustment of local file paths before execution.
 
 ## Code availability
 
-The author-generated analysis code is made available through this public GitHub repository. A permanent archived version and DOI will be added after the Zenodo release is created.
+The author-generated analysis code is publicly available through this GitHub repository. The archived release is available on Zenodo.
 
 ## License
 
-The open-source license for the authors' code will be added after approval by the relevant authors. The DHS microdata and third-party materials are not covered by any license applied to this repository.
+The code in this repository is licensed under the Apache License 2.0. Third-party materials and restricted DHS microdata are not covered by this license.
 
-## Citation
+## Citation and DOI
 
-Please cite the associated research article when using this code. The permanent Zenodo DOI will be added after archival.
+Please cite the archived software release when using this code.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24247128.svg)](https://doi.org/10.5281/zenodo.24247128)
+
+https://doi.org/10.5281/zenodo.24247128
