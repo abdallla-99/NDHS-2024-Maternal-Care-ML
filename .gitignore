@@ -1,0 +1,10 @@
+# Data and local environments
+*.dta
+*.sav
+*.csv.tmp
+.env
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

@@ -1,0 +1,58 @@
+Outcome,Model,Feature,Mean_abs_SHAP
+ANC,Gradient Boosting,birth_interval_cat,0.09323152532895901
+ANC,Gradient Boosting,birth_order,0.037409727863137614
+ANC,Gradient Boosting,clean_fuel,0.08352197937221784
+ANC,Gradient Boosting,currently_in_union,0.03938525861410866
+ANC,Gradient Boosting,has_electricity,0.09353435148728807
+ANC,Gradient Boosting,improved_sanitation,0.10266081809277187
+ANC,Gradient Boosting,improved_water,0.20145396929598483
+ANC,Gradient Boosting,male_child,0.007045128976811707
+ANC,Gradient Boosting,media_exposure,0.15966017409455582
+ANC,Gradient Boosting,mother_employed,0.23797780394870113
+ANC,Gradient Boosting,mothers_age_cat,0.016200607812372866
+ANC,Gradient Boosting,mothers_education,0.7741073345475944
+ANC,Gradient Boosting,prev_terminated_pregnancy,0.07930129946783457
+ANC,Gradient Boosting,region,0.5492007881615817
+ANC,Gradient Boosting,religion,0.0235862729626796
+ANC,Gradient Boosting,twin_birth,0.008055251242501749
+ANC,Gradient Boosting,urban,0.021270247801888957
+ANC,Gradient Boosting,using_contraception,0.1093008580438764
+ANC,Gradient Boosting,wealth_cat,0.39862537558145317
+Facility delivery,Logistic Regression,birth_interval_cat,0.3085148575196428
+Facility delivery,Logistic Regression,birth_order,0.04560517793384091
+Facility delivery,Logistic Regression,clean_fuel,0.1670156304182102
+Facility delivery,Logistic Regression,currently_in_union,0.04328133397508539
+Facility delivery,Logistic Regression,has_electricity,0.07946352339165762
+Facility delivery,Logistic Regression,improved_sanitation,0.0676307156441159
+Facility delivery,Logistic Regression,improved_water,0.1237107098531797
+Facility delivery,Logistic Regression,male_child,0.06884283437663197
+Facility delivery,Logistic Regression,media_exposure,0.13130099810257417
+Facility delivery,Logistic Regression,mother_employed,0.06546129859442625
+Facility delivery,Logistic Regression,mothers_age_cat,0.10641442996897381
+Facility delivery,Logistic Regression,mothers_education,0.7522263608567995
+Facility delivery,Logistic Regression,prev_terminated_pregnancy,0.03497926728680854
+Facility delivery,Logistic Regression,region,0.8050503696753989
+Facility delivery,Logistic Regression,religion,0.1994618337678206
+Facility delivery,Logistic Regression,twin_birth,0.03999897779245154
+Facility delivery,Logistic Regression,urban,0.1431085316771343
+Facility delivery,Logistic Regression,using_contraception,0.06561369843657731
+Facility delivery,Logistic Regression,wealth_cat,0.3144807246568083
+Maternal PNC,Gradient Boosting,birth_interval_cat,0.07545524106927905
+Maternal PNC,Gradient Boosting,birth_order,0.07287108757940933
+Maternal PNC,Gradient Boosting,clean_fuel,0.1009641887575789
+Maternal PNC,Gradient Boosting,currently_in_union,0.013252013030220867
+Maternal PNC,Gradient Boosting,has_electricity,0.05503739503687278
+Maternal PNC,Gradient Boosting,improved_sanitation,0.013677736313369871
+Maternal PNC,Gradient Boosting,improved_water,0.14213778592346415
+Maternal PNC,Gradient Boosting,male_child,0.019485227047611204
+Maternal PNC,Gradient Boosting,media_exposure,0.15190383588420042
+Maternal PNC,Gradient Boosting,mother_employed,0.12254020633734541
+Maternal PNC,Gradient Boosting,mothers_age_cat,0.026848415029103928
+Maternal PNC,Gradient Boosting,mothers_education,0.6093541730510648
+Maternal PNC,Gradient Boosting,prev_terminated_pregnancy,0.027537519565455755
+Maternal PNC,Gradient Boosting,region,0.3687200602390355
+Maternal PNC,Gradient Boosting,religion,0.030650315749825425
+Maternal PNC,Gradient Boosting,twin_birth,0.007776516722077266
+Maternal PNC,Gradient Boosting,urban,0.10232087627128272
+Maternal PNC,Gradient Boosting,using_contraception,0.11494240434908608
+Maternal PNC,Gradient Boosting,wealth_cat,0.33138665137137935
