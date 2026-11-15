@@ -1,40 +1,71 @@
 # NDHS 2024 Maternal Care Machine Learning
 
-This repository contains code and non-disclosive supporting outputs for the analysis of dropout from antenatal care, facility delivery, and maternal postnatal care using the 2024 Nigeria Demographic and Health Survey (NDHS).
+This repository contains the Python scripts, Jupyter notebook, and aggregate supporting results for the study of dropout from antenatal care, facility delivery, and maternal postnatal care in Nigeria using the 2024 Nigeria Demographic and Health Survey (NDHS).
 
 ## Repository contents
 
-- `code/`: scripts for outcome reconstruction, model comparison, and feature-importance/SHAP analysis.
-- `notebooks/`: corrected analysis notebook.
-- `results/`: aggregate model-comparison and feature-importance summaries.
-- `requirements.txt`: Python dependencies.
+The following files are available in the root directory:
+
+- `main_analysis.ipynb`: Corrected Jupyter notebook for the analysis.
+- `model_comparison.py`: Comparison of eight machine-learning algorithms.
+- `maternal_pnc_reconstruction.py`: Construction and audit of the maternal postnatal-care outcome.
+- `feature_importance_shap.py`: Feature-importance and SHAP analysis.
+- `model_comparison_summary.csv`: Aggregate model-comparison results.
+- `shap_importance_summary.csv`: Aggregate SHAP importance results.
+- `weighted_permutation_importance.csv`: Weighted permutation-importance results.
+- `requirements.txt`: Python package dependencies.
+- `.gitignore`: Files excluded from version control.
+
+## Study outcomes
+
+The analysis examines three outcomes:
+
+1. Antenatal care (ANC) dropout.
+2. Facility-delivery dropout.
+3. Maternal postnatal-care (PNC) dropout.
+
+The maternal PNC outcome is based on maternal postnatal-check indicators M62 and M66. The child postnatal-check indicator M70 is not used to define maternal PNC.
+
+## Machine-learning models
+
+Eight algorithms are compared:
+
+1. Logistic Regression
+2. Decision Tree
+3. Random Forest
+4. Gradient Boosting
+5. XGBoost
+6. LightGBM
+7. AdaBoost
+8. Naive Bayes
+
+Model evaluation uses repeated primary-sampling-unit (PSU)-grouped holdout partitions and DHS-weighted performance metrics.
 
 ## Data access
 
-The analysis uses the 2024 Nigeria Demographic and Health Survey (NDHS) Children’s Recode. Individual-level DHS microdata are not included in this repository. Researchers must request and obtain access directly from The DHS Program and comply with its terms of use.
+The study uses the 2024 Nigeria Demographic and Health Survey (NDHS) Children’s Recode.
 
-## Outcomes
+Individual-level DHS microdata are not included in this repository. Researchers must request access directly from The DHS Program and comply with its registration and data-use requirements:
 
-The analysis distinguishes:
-- Antenatal care dropout (ANC)
-- Facility-delivery dropout
-- Maternal postnatal-care (PNC) dropout
+https://dhsprogram.com/
 
-Maternal PNC is based on the mother's postnatal check indicators (M62 and M66). The child postnatal check variable (M70) is not used as the maternal PNC outcome.
+## Running the analysis
 
-## Reproducibility
+1. Obtain authorized access to the relevant 2024 NDHS recode data.
+2. Install the Python dependencies listed in `requirements.txt`.
+3. Review the notebook and scripts for the expected input filename and local data path.
+4. Run the analysis using Jupyter Notebook or Google Colab.
 
-1. Obtain authorized access to the relevant 2024 NDHS recode file from The DHS Program.
-2. Install the packages listed in `requirements.txt`.
-3. Review the scripts and notebook for the expected input filename and data path before execution.
-4. Run the notebook and scripts in the documented order.
+The scripts may require adjustment of local file paths before execution.
 
-The analysis scripts and notebook may require adaptation of local file paths. The results folder contains aggregate summaries; it does not contain the restricted microdata.
+## Code availability
+
+The author-generated analysis code is made available through this public GitHub repository. A permanent archived version and DOI will be added after the Zenodo release is created.
 
 ## License
 
-The license for the authors' code will be stated after all relevant authors have approved the chosen open-source license. No license in this repository grants rights to DHS microdata or third-party materials.
+The open-source license for the authors' code will be added after approval by the relevant authors. The DHS microdata and third-party materials are not covered by any license applied to this repository.
 
 ## Citation
 
-A formal citation and Zenodo DOI will be added after the archived release is created.
+Please cite the associated research article when using this code. The permanent Zenodo DOI will be added after archival.
